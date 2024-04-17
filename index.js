@@ -493,10 +493,11 @@ function findScore(){
             container.innerHTML = ` <div class="title2">Result Found:</div>
             <div class="note-2">Full Name: ${fullName}</div>
             <div class="note-2">Matric No: ${matricNo}</div>
+            <div class="note-2">Course code: ${courseCode}</div>
             <div class="note-2">CA: ${ca}</div>
             <div class="note-2">Exam Score: ${examScore}</div>
             <div class="note-2">Total Score: ${totalScore}</div>
-            <div class="note-2">Course code: ${courseCode}</div>
+            
             `
             
             
