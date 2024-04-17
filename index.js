@@ -8,6 +8,8 @@ let examScore = null;
 let totalScore = null;
 let id = '000'
 
+const courseCode = 'CPE 419'
+
 let container = document.querySelector('.result-container')
 const error = document.querySelector('.error')
 const errorMessage = [
@@ -493,7 +495,9 @@ function findScore(){
             <div class="note-2">Matric No: ${matricNo}</div>
             <div class="note-2">CA: ${ca}</div>
             <div class="note-2">Exam Score: ${examScore}</div>
-            <div class="note-2">Total Score: ${totalScore}</div>`
+            <div class="note-2">Total Score: ${totalScore}</div>
+            <div class="note-2">Course code: ${courseCode}</div>
+            `
             
             
         
